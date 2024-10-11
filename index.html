@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>欧嘉伟</title>
     <style>
-        body {
-            background-color: yellow;
-            margin: 0;
-            height: 100vh; /* 让 body 的高度等于视窗高度 */
-            display: flex;
-            justify-content: center; /* 水平方向居中 */
-            align-items: center;     /* 垂直方向居中 */
-        }
+      body {
+        background-color: yellow;
+        margin: 0;
+        height: 100vh; /* 让 body 的高度等于视窗高度 */
+        display: flex;
+        justify-content: center; /* 水平方向居中 */
+        align-items: center; /* 垂直方向居中 */
+      }
 
-        .people a img {
-            max-width: 100%; /* 确保图片不超过屏幕宽度 */
-            height: auto;
-        }
+      .people a img {
+        max-width: 100%; /* 确保图片不超过屏幕宽度 */
+        height: auto;
+      }
+      button {
+        position: absolute;
+        display: block;
+        font-size: 20px;
+        float: left;
+        margin-top: 10px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="people">
-        <a href="describle.html">
-            <img src="1.png" alt="Image">
-        </a>
+      <img src="1.png" alt="Image" />
+      <a href="describle.html">
+        <button>点击为你详细介绍他</button>
+      </a>
     </div>
-</body>
+  </body>
 </html>
